@@ -12,7 +12,7 @@
 </center>
 
 <br>
-This Project is Live at -----> https://shsarv.github.io/TravelYaari/
+This Project is Live at ----->  https://deva-tech-droid.github.io/travel..../
 
 #### [Mentor: Pankaj Kapoor](https://github.com/pankkap)
 
