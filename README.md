@@ -14,7 +14,7 @@
 <br>
 This Project is Live at ----->  https://deva-tech-droid.github.io/travel..../
 
-#### [Mentor: Pankaj Kapoor](https://github.com/pankkap)
+#### [Mentor: Devansh Upadhyay]((https://github.com/Deva-TECH-droid))
 
 <hr>
 
