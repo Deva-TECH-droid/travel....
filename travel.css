@@ -1,0 +1,359 @@
+/* Main Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navbar Styles */
+nav {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.brand-logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar-fixed .nav-wrapper {
+    padding: 0 20px;
+}
+
+.navbar-fixed .nav-wrapper a {
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.navbar-fixed .nav-wrapper a:hover {
+    color: #ffeb3b;
+}
+
+/* Slider Styles */
+.slider {
+    height: 500px;
+}
+
+.slider img {
+    object-fit: cover;
+}
+
+/* Section Styles */
+.section {
+    padding: 60px 0;
+}
+
+.section h3, .section h4 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section p {
+    margin-bottom: 20px;
+}
+
+/* Search Section */
+.section-search {
+    padding: 40px 0;
+    background-color: #388e3c;
+}
+
+.input-field input {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Icon Boxes */
+.card-panel {
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-panel:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Popular Section */
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+}
+
+/* Follow Section */
+.section-follow a {
+    margin: 0 10px;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.section-follow a:hover {
+    transform: scale(1.1);
+    color: #ffeb3b;
+}
+
+/* Gallery Section */
+.materialboxed {
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.materialboxed:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Section */
+.card-panel.teal {
+    border-radius: 10px;
+}
+
+.input-field {
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+    padding: 20px 0;
+    background-color: #00796b;
+}
+
+/* Button Styles */
+.btn {
+    background-color: #ffeb3b;
+    color: #000;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background-color: #fbc02d;
+    transform: translateY(-2px);
+}
+
+/* Form Styles */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+    border-color: #388e3c;
+    outline: none;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+    .section {
+        padding: 40px 0;
+    }
+
+    .navbar-fixed .nav-wrapper {
+        padding: 0 10px;
+    }
+
+    .slider {
+        height: 300px;
+    }
+
+    .section-search {
+        padding: 20px 0;
+    }
+
+    .section-follow a {
+        margin: 0 5px;
+    }
+}
+
+/* Additional Styles for Better Layout */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col {
+    padding: 0 15px;
+    flex: 1;
+}
+
+/* Card Content */
+.card-content {
+    padding: 20px;
+}
+
+/* Hover Effects for Links */
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #388e3c;
+}
+
+/* Animation for Sections */
+.section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #388e3c;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f4f4f4;
+}
+
+/* Button Variants */
+.btn-primary {
+    background-color: #388e3c;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #2e7d32;
+}
+
+/* Alert Styles */
+.alert {
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.alert-success {
+    background-color: #dff0d8;
+    color: #3c763d;
+}
+
+.alert-danger {
+    background-color: #f2dede;
+    color: #a94442;
+}
+
+/* Card Hover Effects */
+.card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+}
+
+/* Responsive Typography */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+/* Custom Input Styles */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+    border-color: #388e3c;
+    outline: none;
+}
+
+/* Custom Checkbox Styles */
+input[type="checkbox"] {
+    transform: scale(1.5);
+    margin-right: 10px;
+}
+
+/* Custom Radio Button Styles */
+input[type="radio"] {
+    transform: scale(1.5);
+    margin-right: 10px;
+}
+
+/* Custom Select Styles */
+select {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    transition: border-color 0.3s;
+}
+
+select:focus {
+    border-color: #388e3c;
+    outline: none;
+}
